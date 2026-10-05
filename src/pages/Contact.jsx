@@ -69,6 +69,7 @@ export default function Contact() {
           from_email: form.email,
           subject: form.subject,
           message: form.message,
+          url: "https://cipher-lab-crypto.vercel.app/",
 
           name: form.name,
           email: form.email,

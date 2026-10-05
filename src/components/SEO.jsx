@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 
-const SITE_URL = "https://cipherlab.vercel.app";
+const SITE_URL = "https://cipher-lab-crypto.vercel.app/";
 
 const DEFAULT_TITLE = "CipherLab | Modern Browser-Based Cryptography Tools";
 

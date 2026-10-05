@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://devtools-toolkit.vercel.app/sitemap.xml
+Sitemap: https://cipher-lab-crypto.vercel.app/sitemap.xml

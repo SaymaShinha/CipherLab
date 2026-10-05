@@ -50,6 +50,14 @@ import AESExplained from "./pages/learn/AESExplained.jsx";
 import PasswordEncryption from "./pages/learn/PasswordEncryption.jsx";
 import SaltAndIV from "./pages/learn/SaltAndIV.jsx";
 import CryptographyBasics from "./pages/learn/CryptographyBasics.jsx";
+import WhatIsHMAC from "./pages/learn/WhatIsHMAC.jsx";
+import WhatIsPBKDF2 from "./pages/learn/WhatIsPBKDF2.jsx";
+import WhatIsAESGCM from "./pages/learn/WhatIsAESGCM.jsx";
+import WhatIsRSA from "./pages/learn/WhatIsRSA.jsx";
+import WhatIsSHA256 from "./pages/learn/WhatIsSHA256.jsx";
+import WhatIsBase64 from "./pages/learn/WhatIsBase64.jsx";
+import CryptographicRandomness from "./pages/learn/CryptographicRandomness.jsx";
+import PasswordHashingVsEncryption from "./pages/learn/PasswordHashingVsEncryption.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -204,6 +212,20 @@ export const router = createBrowserRouter([
       {
         path: "learn/salt-and-iv",
         Component: SaltAndIV,
+      },
+      { path: "learn/what-is-hmac", Component: WhatIsHMAC },
+      { path: "learn/what-is-pbkdf2", Component: WhatIsPBKDF2 },
+      { path: "learn/what-is-aes-gcm", Component: WhatIsAESGCM },
+      { path: "learn/what-is-rsa", Component: WhatIsRSA },
+      { path: "learn/what-is-sha-256", Component: WhatIsSHA256 },
+      { path: "learn/what-is-base64", Component: WhatIsBase64 },
+      {
+        path: "learn/cryptographic-randomness",
+        Component: CryptographicRandomness,
+      },
+      {
+        path: "learn/password-hashing-vs-encryption",
+        Component: PasswordHashingVsEncryption,
       },
 
       // =========================================================
