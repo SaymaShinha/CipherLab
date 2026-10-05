@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1"></stop>
+      <stop offset="1" stop-color="#06B6D4"></stop>
+    </linearGradient>
+
+    <linearGradient id="shield" x1="32" y1="9" x2="32" y2="55" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"></stop>
+      <stop offset="1" stop-color="#E2E8F0"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="64" height="64" rx="16" fill="#020617"></rect>
+
+  <!-- Shield -->
+  <path d="M32 8
+       L52 16
+       V30
+       C52 43 44 52 32 57
+       C20 52 12 43 12 30
+       V16
+       L32 8Z" fill="url(#bg)"></path>
+
+  <!-- Inner shield -->
+  <path d="M32 14
+       L46 19.5
+       V30
+       C46 39.5 40.5 46.5 32 51
+       C23.5 46.5 18 39.5 18 30
+       V19.5
+       L32 14Z" fill="#020617"></path>
+
+  <!-- Keyhole / lock symbol -->
+  <circle cx="32" cy="29" r="6" fill="url(#shield)"></circle>
+
+  <path d="M28.5 33
+       H35.5
+       L37 44
+       H27
+       L28.5 33Z" fill="url(#shield)"></path>
+
+  <!-- Small cryptographic dots -->
+  <circle cx="23" cy="23" r="1.5" fill="#06B6D4"></circle>
+  <circle cx="41" cy="23" r="1.5" fill="#6366F1"></circle>
+</svg>
